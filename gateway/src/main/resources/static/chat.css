@@ -1,0 +1,140 @@
+body {
+    background: #f3f4f6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card-header {
+    background: linear-gradient(90deg, #0d6efd 0%, #254bd6 100%) !important;
+    color: #fff !important;
+    border-radius: 10px 10px 0 0;
+    border: none;
+}
+
+#chat {
+    max-width: 100%;
+    overflow-x: hidden;
+    word-break: break-word;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    padding: 10px 0 4px 0;
+    margin-bottom: 0;
+    min-height: 260px;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    word-break: break-word;
+    border-radius: 0;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #e5e7eb;
+    transition: background 0.2s;
+}
+
+.message:last-child {
+    border-bottom: none;
+}
+
+.message-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 80vw;
+    word-break: break-word;
+}
+
+.user {
+    white-space: nowrap;
+    margin-right: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #0d6efd;
+}
+
+.content {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    white-space: pre-wrap;
+    max-width: 100%;
+    min-width: 0;
+    display: inline-block;
+    font-size: 1.02rem;
+    color: #222;
+}
+
+.time {
+    color: #6c757d;
+    font-size: 0.92rem;
+    margin-right: 4px;
+    white-space: nowrap; 
+    flex-shrink: 0;
+}
+
+.message-buttons {
+    display: flex;
+    gap: 2px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    flex: 0 0 auto;
+}
+
+.message:hover .message-buttons {
+    opacity: 1;
+}
+
+.message-buttons button {
+    font-size: 0.85rem;
+    padding: 0.12rem 0.32rem;
+    border-radius: 3px;
+    border: none;
+    background: #e5e7eb;
+    color: #0d6efd;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+.message-buttons button:hover {
+    background: #dbeafe;
+    color: #0a58ca;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.13);
+}
+
+#activeUsers {
+    background: #f8fafc;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.input-group input, .input-group button {
+    border-radius: 5px !important;
+    font-size: 1rem;
+}
+
+.input-group button {
+    min-width: 80px;
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+    width: 0 !important;
+    background: transparent !important;
+}
+
+body,
+html {
+    scrollbar-width: none;
+}
