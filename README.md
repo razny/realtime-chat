@@ -1,5 +1,6 @@
-
 # Real-Time Chat App
+
+[Watch the demo](https://www.dropbox.com/scl/fi/i5fnttj0kz5duo5hl5im1/demo_chat.mp4?rlkey=3dxylqx1uwy21fjqh9kyhudgz&st=6c90pfr4&dl=0)
 
 A full-stack, real-time chat application built with **Spring Boot**, **WebSocket (STOMP/SockJS)**, **RabbitMQ**, and **MongoDB**.  
 Features include real-time messaging, message history, active user tracking, and bot integrations.
@@ -33,17 +34,20 @@ Features include real-time messaging, message history, active user tracking, and
 Java 17+, Maven, RabbitMQ, MongoDB
 
 **1. Build everything:**
+
 ```sh
 mvn clean install
 ```
 
 **2. Start RabbitMQ and MongoDB** (locally or via Docker):
+
 ```sh
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 docker run -d --name mongo -p 27017:27017 mongo
 ```
 
 **3. Run the backend:**
+
 ```sh
 cd message-processor && mvn spring-boot:run
 # In another terminal:
@@ -60,6 +64,7 @@ Go to [http://localhost:8080/chat](http://localhost:8080/chat)
 ```sh
 mvn test
 ```
+
 Covers both unit and integration tests.
 
 ---

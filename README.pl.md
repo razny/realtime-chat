@@ -1,5 +1,7 @@
 # Aplikacja czatu w czasie rzeczywistym
 
+[Obejrz demo wideo](https://www.dropbox.com/scl/fi/i5fnttj0kz5duo5hl5im1/demo_chat.mp4?rlkey=3dxylqx1uwy21fjqh9kyhudgz&st=6c90pfr4&dl=0)
+
 Full-stackowa aplikacja czatu w czasie rzeczywistym zbudowana przy użyciu **Spring Boot**, **WebSocket (STOMP/SockJS)**, **RabbitMQ** i **MongoDB**. Oferuje komunikację w czasie rzeczywistym, przechowywanie historii wiadomości, monitorowanie aktywnych użytkowników oraz integrację z botami.
 
 ---
@@ -31,17 +33,20 @@ Full-stackowa aplikacja czatu w czasie rzeczywistym zbudowana przy użyciu **Spr
 Java 17+, Maven, RabbitMQ, MongoDB
 
 **1. Zbuduj wszystko:**
+
 ```sh
 mvn clean install
 ```
 
 **2. Uruchom RabbitMQ i MongoDB** (lokalnie lub za pomocą Dockera):
+
 ```sh
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 docker run -d --name mongo -p 27017:27017 mongo
 ```
 
 **3. Uruchom backend:**
+
 ```sh
 cd message-processor && mvn spring-boot:run
 # W innym terminalu:
@@ -58,6 +63,7 @@ Przejdź do [http://localhost:8080/chat](http://localhost:8080/chat)
 ```sh
 mvn test
 ```
+
 Obejmuje zarówno testy jednostkowe, jak i integracyjne.
 
 ---
