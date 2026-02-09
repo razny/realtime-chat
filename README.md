@@ -92,10 +92,10 @@ Edit `application.properties` in each module to adjust ports, database, or Rabbi
 ## Screenshots
 
 **Normal chat**  
-![Normal chat](https://github.com/user-attachments/assets/413eacc5-5f94-46d7-bad6-73368aeeadc0)
+![Normal chat](https://i.imgur.com/HEgkFWZ.png)
 
 **Editing a message**  
-![Editing a message](https://github.com/user-attachments/assets/50a3fd7e-86d2-4a54-9689-c7b9bc0bfe94)
+![Editing a message](https://i.imgur.com/fWOwI7u.png)
 
 **Deleting a message**  
-![Deleting a message](https://github.com/user-attachments/assets/ac7fdc1b-bbfe-430e-b2fb-520af57ab76d)
+![Deleting a message](https://i.imgur.com/k4oVL35.png)

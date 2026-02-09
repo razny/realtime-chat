@@ -91,10 +91,10 @@ Edytuj `application.properties` w każdym module, aby dostosować porty, bazę d
 ## Zrzuty ekranu
 
 **Normalny widok**  
-![Normalny widok](https://github.com/user-attachments/assets/413eacc5-5f94-46d7-bad6-73368aeeadc0)
+![Normalny widok](https://i.imgur.com/HEgkFWZ.png)
 
 **Edytowanie wiadomości**  
-![Edytowanie wiadomości](https://github.com/user-attachments/assets/50a3fd7e-86d2-4a54-9689-c7b9bc0bfe94)
+![Edytowanie wiadomości](https://i.imgur.com/fWOwI7u.png)
 
 **Usuwanie wiadomości**  
-![Usuwanie wiadomości](https://github.com/user-attachments/assets/ac7fdc1b-bbfe-430e-b2fb-520af57ab76d)
+![Usuwanie wiadomości](https://i.imgur.com/k4oVL35.png)
